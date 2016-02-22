@@ -43,8 +43,13 @@ print('The distribution of characters in "' + string + '." is :')
 l = list(string)
 sost = string.split(' ')
 
-k = reversed(sost)
-print(k)
+
+f = list(reversed(sost))
+for word in f :
+    print(word, end=" ")
+print("")
+print()
+
 
 
 
