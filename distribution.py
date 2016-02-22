@@ -36,19 +36,16 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
-
+'''
 string = str(input("Please enter a string of text (the bigger the better): "))
 b = (int(len(string)))
 print('The distribution of characters in "' + string + '." is :') 
 l = list(string)
 sost = string.split(' ')
+'''
 
-
-f = list(reversed(sost))
-for word in f :
-    print(word, end=" ")
-print("")
-print()
+def compair(a, b) : 
+return
 
 
 
