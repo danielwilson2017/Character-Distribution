@@ -39,12 +39,12 @@ Notice about this example:
 
 string = str(input("Please enter a string of text (the bigger the better): "))
 b = (int(len(string)))
-print('The distribution of characters in '+ string) 
+print('The distribution of characters in "' + string + '." is :') 
 l = list(string)
 sost = string.split(' ')
 
-print(sost)
-
+k = reversed(sost)
+print(k)
 
 
 
