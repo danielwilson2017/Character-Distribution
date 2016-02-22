@@ -37,7 +37,13 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 
+string = str(input("Please enter a string of text (the bigger the better): "))
+b = (int(len(string)))
+print('The distribution of characters in '+ string) 
+l = list(string)
+sost = string.split(' ')
 
+print(sost)
 
 
 
