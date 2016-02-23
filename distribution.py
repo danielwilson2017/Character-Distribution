@@ -42,19 +42,7 @@ b = (int(len(string)))
 print('The distribution of characters in "' + string + '." is :') 
 l = list(string)
 sost = string.split(' ')
-'''
 
-def compair(a, b) : 
-    return b > a
-
-string = str(input("Please enter a string of text (the bigger the better): "))
-string1 = string.lower()
-print('The distribution of characters in "' + string + '." is :') 
-ap = "abcdefghijklmnopqrstuvwxyz"
-result=[]
-
-
-''''
 a = string1.count("a")
 b = string1.count("b")
 c = string1.count("c")
@@ -89,3 +77,22 @@ list1.sort()
 
 print(list1)
 ''''
+
+
+
+
+def compair(a, b) : 
+    return b > a
+
+string = str(input("Please enter a string of text (the bigger the better): "))
+string1 = string.lower()
+print('The distribution of characters in "' + string + '." is :') 
+ap = "abcdefghijklmnopqrstuvwxyz"
+result=[]
+
+for c in ap:
+    r = string.count(c)
+    if not r == 0:
+        t = (r*c)
+        result.append(t)
+print(result)
