@@ -58,13 +58,14 @@ result=[]
 spil
 
 for c in ap:
-    r = string.count(c)
+    r = list(string.count(c))
+    r.sort(reversed=True)
     if not r == 0:
         t = (r*c)
         result.append(t)
 
 
-result.sort(reversed=True)
+
 print(result)
 
 
