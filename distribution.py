@@ -58,7 +58,7 @@ result=[]
 ln=[]
 
 for c in ap:
-    r = list(string.count(c))
+    r = string.count(c)
     ln.append(r)
     if not r == 0:
         t = (r*c)
