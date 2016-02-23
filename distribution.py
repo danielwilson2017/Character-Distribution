@@ -50,7 +50,11 @@ def compair(a, b) :
 string = str(input("Please enter a string of text (the bigger the better): "))
 string1 = string.lower()
 print('The distribution of characters in "' + string + '." is :') 
+ap = "abcdefghijklmnopqrstuvwxyz"
+result=[]
 
+
+''''
 a = string1.count("a")
 b = string1.count("b")
 c = string1.count("c")
@@ -84,10 +88,4 @@ list1.sort()
 
 
 print(list1)
-
-
-
-
-
-
-
+''''
