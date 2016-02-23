@@ -55,7 +55,7 @@ string1 = string.lower()
 print('The distribution of characters in "' + string + '." is :') 
 ap = "abcdefghijklmnopqrstuvwxyz"
 result=[]
-spil = 
+spil
 
 for c in ap:
     r = string.count(c)
