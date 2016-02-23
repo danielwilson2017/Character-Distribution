@@ -55,11 +55,10 @@ string1 = string.lower()
 print('The distribution of characters in "' + string + '." is :') 
 ap = "abcdefghijklmnopqrstuvwxyz"
 result=[]
-spil
+ln=[]
 
 for c in ap:
     r = list(string.count(c))
-    r.sort(reversed=True)
     if not r == 0:
         t = (r*c)
         result.append(t)
