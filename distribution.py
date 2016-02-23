@@ -64,7 +64,7 @@ for c in ap:
         t = (r*c)
         result.append(t)
 
-ln.sort(revered=True)
+ln.sort(reverse=True)
 print(ln)
 print(result)
 
