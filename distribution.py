@@ -59,10 +59,10 @@ ln=[]
 
 for c in ap:
     r = string.count(c)
-    ln.append(r)
     if not r == 0:
         t = (r*c)
         result.append(t)
+        ln.append(r)
 
 ln.sort(reverse=True)
 print(ln)
