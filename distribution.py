@@ -63,6 +63,7 @@ for c in ap:
         t = (r*c)
         result.append(t)
         ln.append(r)
+    print("")
 
 ln.sort(reverse=True)
 print(ln)
