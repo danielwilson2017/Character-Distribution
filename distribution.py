@@ -62,6 +62,9 @@ for c in ap:
     if not r == 0:
         t = (r*c)
         result.append(t)
+
+
+result.sort(reversed=True)
 print(result)
 
 
