@@ -89,7 +89,4 @@ def bsort(seq, cmp):
 
 bsort(result, compair)
 print(result)
-'''
-need to sort on github
-'''
 
