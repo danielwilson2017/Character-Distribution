@@ -8,10 +8,10 @@ Assignment:
 Write and submit a Python program (distribution.py) that computes and displays 
 the distribution of characters in a given sample of text.
 
-Output of your program should look like this:
+Output of your program should look like this
 
 Please enter a string of text (the bigger the better): The rain in Spain stays mainly in the plain.
-The distribution of characters in "The rain in Spain stays mainly in the plain." is:
+The distribution of characters in "The rain in Spain stays mainly in the plain." is
 iiiiii
 nnnnnn
 aaaaa
@@ -25,7 +25,7 @@ yy
 m
 r
 
-Notice about this example:
+Notice about this example
 
 * The text: 'The rain ... plain' is provided by the user as input to your program.
 * Uppercase characters are converted to lowercase
@@ -47,8 +47,9 @@ sost = string.split(' ')
 
 
 
-while b > a:
-    return b > a
+def compair(a, b):
+    while b > a:
+        return b > a
 
 string = str(input("Please enter a string of text (the bigger the better): "))
 string1 = string.lower()
