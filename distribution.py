@@ -87,8 +87,7 @@ def bsort(seq, cmp):
 
 
 
-ln.sort(reverse=True)
-print(ln)
+bsort(results, compair)
 print(result)
 '''
 need to sort on github
