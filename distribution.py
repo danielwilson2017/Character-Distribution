@@ -41,6 +41,8 @@ b = (int(len(string)))
 print('The distribution of characters in "' + string + '." is :') 
 l = list(string)
 sost = string.split(' ')
+bsort(result, compair)
+print(result)
 
 """
 
@@ -68,7 +70,6 @@ for c in ap:
 
 ln.sort(reverse=True)
 print(ln)
-print(result)
 
 
 def bsort(seq, cmp):
@@ -87,6 +88,9 @@ def bsort(seq, cmp):
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
 
+a = num(list(string))
 
-bsort(result, compair)
-print(bsort)
+l = len(results)
+for l in range (0, a):
+    
+    
