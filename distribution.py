@@ -89,4 +89,4 @@ def bsort(seq, cmp):
 
 
 bsort(result, compair)
-print(result)
+print(bsort)
