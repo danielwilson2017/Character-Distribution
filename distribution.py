@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Daniel Wilson
-Credit: <list sources used, if any>
+Credit: Avery Wallis, Payton Sterns
 
 Assignment:
 
