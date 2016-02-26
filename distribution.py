@@ -73,6 +73,6 @@ for j in range(0,s-1):
         print(k[j])
     elif j==j+1:
         print(k)
-g = sorted(k[j])
+g = sorted(k)
 print(g)
 
