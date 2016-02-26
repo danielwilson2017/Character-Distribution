@@ -70,7 +70,7 @@ s=len([x[0] for x in lists])
 for j in range(0,s-1):
     if not j==j+1:
         k=list([r[1] for r in lists])
-        print(a[y])
+        print(k[y])
     elif j==j+1:
         print(k)
 
