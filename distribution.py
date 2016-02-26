@@ -67,7 +67,7 @@ ln.sort(reverse=True)
 print(list(lists))
 q= list(lists)
 s=len([x[0] for x in lists])
-for j in range(0,s+1):
+for j in range(0,s-1):
     if not j==j+1:
         print(j)
 
