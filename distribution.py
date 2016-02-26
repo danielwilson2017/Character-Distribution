@@ -68,7 +68,9 @@ for c in ap:
         result.append(t)
         ln.append(r)
         
-
+lists=zip(ln, result)
+print(list(lists))
+lists=sorted(lists, key=lambda ln: ln[0])
 ln.sort(reverse=True)
 print(ln)
 
@@ -87,6 +89,8 @@ def bsort(seq, cmp):
                 if not cmp(seq[index-1], value):  # if this element is out of order
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
+
+
 
 
 
