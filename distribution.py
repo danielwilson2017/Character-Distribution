@@ -68,8 +68,8 @@ print(ln)
 print(list(lists))
 lists.sort(reverse=True)
 print(list(lists))
-if x in range(0:100):
-    
+s=len(x[1] for x in lists)
+print(s)
 
 def bsort(seq, cmp):
     """
