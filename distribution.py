@@ -71,5 +71,6 @@ for j in range(0,s-1):
     if not j==j+1:
         k=list([r[1] for r in lists])
         print(a[y])
-    elif j==j+1
+    elif j==j+1:
+        print(k)
 
