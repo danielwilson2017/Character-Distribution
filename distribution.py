@@ -71,10 +71,10 @@ s=len([x[0] for x in lists])
 while g is sorted:
     for j in range(0,s-1): 
         if not j==j+1:
-        k=list([r[1] for r in lists])
-        print(k[j])
-    elif j==j+1:
-        print(k)
+            k=list([r[1] for r in lists])
+            print(k[j])
+            elif j==j+1:
+                print(k)
 
 print(g)
 
