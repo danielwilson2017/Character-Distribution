@@ -96,8 +96,6 @@ def bsort(seq, cmp):
 
 
 l = len(results)
-for b in range (0, a):
-    m=len(result[-l]
-    new.append(m)
+
     
 print(new)
