@@ -36,14 +36,6 @@ Notice about this example
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 
-string = str(input("Please enter a string of text (the bigger the better): "))
-b = (int(len(string)))
-print('The distribution of characters in "' + string + '." is :') 
-l = list(string)
-sost = string.split(' ')
-bsort(result, compair)
-print(result)
-
 """
 
 
@@ -76,6 +68,8 @@ print(ln)
 print(list(lists))
 lists.sort(reverse=True)
 print(list(lists))
+if x in range(0:100):
+    
 
 def bsort(seq, cmp):
     """
