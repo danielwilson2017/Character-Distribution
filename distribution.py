@@ -67,8 +67,8 @@ ln.sort(reverse=True)
 print(ln)
 print(list(lists))
 lists.sort(reverse=True)
-print(list(lists))
-s=len(x[1] for x in lists)
+q= list(lists)
+s=len([x[0] for x in lists])
 print(s)
 
 def bsort(seq, cmp):
