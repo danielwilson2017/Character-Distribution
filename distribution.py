@@ -61,15 +61,13 @@ for c in ap:
         ln.append(r)
         
 
-lists=zip(listnum, result)
+lists=zip(ln, result)
 lists=sorted(lists, key=lambda ln: ln[0])
 ln.sort(reverse=True)
-print(ln)
 print(list(lists))
 lists.sort(reverse=True)
 q= list(lists)
 s=len([x[0] for x in lists])
-print(s)
 for j in range(0,s+1):
     if not j == (j + 1):
         print(j)
