@@ -73,7 +73,9 @@ print(list(lists))
 lists=sorted(lists, key=lambda ln: ln[0])
 ln.sort(reverse=True)
 print(ln)
-
+print(list(lists))
+lists.sort(reverse=True)
+print(list(lists))
 
 def bsort(seq, cmp):
     """
@@ -91,4 +93,3 @@ def bsort(seq, cmp):
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
 
 
-print(new)
