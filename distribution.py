@@ -64,15 +64,17 @@ for c in ap:
 lists=zip(ln, result)
 lists=sorted(lists, key=lambda ln: ln[0])
 lists.sort(reverse=True)
+g = sorted(k)
 print(list(lists))
 q= list(lists)
 s=len([x[0] for x in lists])
-for j in range(0,s-1):
-    if not j==j+1:
+while g is sorted:
+    for j in range(0,s-1): 
+        if not j==j+1:
         k=list([r[1] for r in lists])
         print(k[j])
     elif j==j+1:
         print(k)
-g = sorted(k)
+
 print(g)
 
