@@ -72,9 +72,11 @@ for j in range(0,s):
     if not j==j+1:
         k=list([r[1] for r in lists])
         u=(k[j])
-        print(sorted(u))
-        '''
-    elif j==j+1:
-        print(k[g])
+        print(u)
+    
+print(g)
+
+'''
+use sorted
 '''
 
