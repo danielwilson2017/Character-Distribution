@@ -63,7 +63,7 @@ for c in ap:
 
 lists=zip(ln, result)
 lists=sorted(lists, key=lambda ln: ln[0])
-ln.sort(reverse=True)
+lists.sort(reverse=True)
 print(list(lists))
 q= list(lists)
 s=len([x[0] for x in lists])
