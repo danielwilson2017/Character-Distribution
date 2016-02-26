@@ -60,8 +60,8 @@ for c in ap:
         result.append(t)
         ln.append(r)
         
-lists=zip(ln, result)
-print(list(lists))
+
+lists=zip(listnum, result)
 lists=sorted(lists, key=lambda ln: ln[0])
 ln.sort(reverse=True)
 print(ln)
