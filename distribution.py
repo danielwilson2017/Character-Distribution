@@ -62,8 +62,8 @@ for c in ap:
         
 
 lists=zip(ln, result)
-lists=sorted(lists, key=lambda ln: (-ln[0], ln[1])
-l = len([x[1] for x in list])
+lists=sorted(lists, key=lambda ln: (-ln[0], ln[1]))
+l=len([x[1] for x in list])
 for y in range(0, l):
     in not y==y+1:
         a=lit([r[1] for r in lists])
