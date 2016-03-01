@@ -45,10 +45,9 @@ print('The distribution of characters in "' + string + '" is:')
 ap = "abcdefghijklmnopqrstuvwxyz"
 result=[]
 ln=[]
-new=[]
 
 for c in ap:
-    r = string.count(c)
+    r = string1.count(c)
     if not r == 0:
         t = (r*c)
         result.append(t)
