@@ -39,12 +39,6 @@ Notice about this example
 """
 
 
-
-
-def compair(a, b):
-    while b > a:
-        return b > a
-
 string = str(input("Please enter a string of text (the bigger the better): "))
 string1 = string.lower()
 print('The distribution of characters in "' + string + '" is:') 
